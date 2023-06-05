@@ -1,0 +1,29 @@
+- (c1)(1) arrived
+- Connection 1: c1 Log in
+- (c2)(2) arrived
+- (c3)(3) arrived and waiting
+- (c4)(4) arrived and waiting
+- Connection 2: c2 Log in
+- (c6)(6) arrived and waiting
+- (c7)(7) arrived and waiting
+- (c9)(9) arrived and waiting
+- (c10)(10) arrived and waiting
+- Connection 1: c1 performs online activity
+- Connection 1: c1 Logged out
+- Connection 2: c2 Logged out
+- Connection 1: c3 Log in
+- Connection 2: c4 Log in
+- Connection 2: c4 performs online activity
+- Connection 1: c3 performs online activity
+- Connection 2: c4 Logged out
+- Connection 2: c6 Log in
+- Connection 1: c3 Logged out
+- Connection 1: c7 Log in
+- Connection 1: c7 performs online activity
+- Connection 2: c6 Logged out
+- Connection 1: c7 Logged out
+- Connection 1: c9 Log in
+- Connection 2: c10 Log in
+- Connection 2: c10 performs online activity
+- Connection 1: c9 performs online activity
+- Connection 2: c10 Logged out
